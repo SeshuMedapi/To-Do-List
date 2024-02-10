@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+  }
+  
+  :root {
+    --primary-color: #c6c3c3;
+    --secondary-colr: #ffffff;
+    --black-color: #000000;
+  }
+  
+  .header {
+    position: relative;
+    width: 400px;
+    Backdrop-filter: blur(25px);
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 7.5em 2.5em 4em 2.5em;
+    color: var(--secondary-colr);
+    box-shadow: 0px 0px 10px 1px var(--primary-color);
+    margin: 150px 450px 0px 450px;
+  }
+  
+  .txt {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    width: 140px;
+    height: 70px;
+    border-radius: 0 0 20px 20px;
+    color: var(--black-color);
+  }
+  
+  .input-txt {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 0;
+    padding-left: 10px;
+    box-shadow: 5px 5px 10px 4px var(--primary-color);
+  }
+  
+  .button-add {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    position: relative;
+    box-shadow: 5px 5px 10px 4px var(--primary-color);
+    cursor: pointer;
+  }
+  
+  .tdl-list {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px 4px var(--primary-color);
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: start;
+  }
+  
+  .check-box {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    transform: scale(1.5);
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-top: 6px;
+    cursor: pointer;
+    
+  }
+  
+  .delete-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    color: red;
+    font-size: 20px;
+    margin-left: auto;
+    padding-right: 10px;
+  }
+  
+  .checked {
+    text-decoration: line-through;
+    color: green;
+  }
+
+  .clear-all-button{
+    background: none;
+    font-size: 40px;
+    width: 30px;
+    margin-top: 15px;
+    color: var(--primary-color);
+    border: none;
+  }
+
+  .clear-all-button:hover{
+    color: red;
+    cursor: pointer;
+  }
+  .all-done-button{
+    background: none;
+    font-size: 40px;
+    width: 30px;
+    margin-top: 15px;
+    margin-right: 15px;
+    color: var(--primary-color);
+    border: none;
+  }
+  .all-done-button:hover{
+    color:green;
+    cursor: pointer;
+  }
+  
